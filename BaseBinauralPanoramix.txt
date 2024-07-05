@@ -1,0 +1,615 @@
+# ==============================================================================
+# File "C:\Users\cheny\Documents\20220919_D\NTU\WFS\2024 Max\MaxEasyExample\BaseBinauralPanoramix.txt"
+# Exported by cheny
+# cheny@chenyw - Windows 8.1
+# 19-Apr-2024 17:39:38
+# Content: 608 OSC messages
+# ==============================================================================
+/options/name "Options"
+/options/color 1.0 0.0 0.0 1.0
+/options/annotation ""
+/options/vumeters/rate 85.0
+/options/parallel/bus 0
+/options/parallel/tracks 0
+/options/lock 0
+/master/name "Master"
+/master/color 0.0 0.0 0.0 1.0
+/master/numio 2 2
+/master/visible 1
+/master/trim 0.0
+/master/dynamics/attack 10.01
+/master/dynamics/release 30.0
+/master/dynamics/lookahead 0.0
+/master/dynamics/compressor/threshold -30.0
+/master/dynamics/compressor/ratio 1.0
+/master/dynamics/expander/threshold -60.0
+/master/dynamics/expander/ratio 1.0
+/master/dynamics/makeup 0.0
+/master/dynamics/link "multi mono"
+/master/dynamics/bypass 1
+/master/dynamics/grid/visible 1
+/master/dynamics/curve/fill 1
+/master/dynamics/background/color 1.0 1.0 1.0 0.0
+/master/dynamics/foreground/color 0.0 0.0 0.0 0.6
+/master/dynamics/curve/color 0.0 0.0 0.0 1.0
+/master/dynamics/curve/thickness 1.0
+/master/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/master/dynamics/title "Master"
+/master/equalizer/bypass 1
+/master/equalizer/gain 0.0
+/master/equalizer/filter/1/active 0
+/master/equalizer/filter/1/freq 50.0
+/master/equalizer/filter/1/order 2
+/master/equalizer/filter/2/active 1
+/master/equalizer/filter/2/freq 100.0
+/master/equalizer/filter/2/gain 0.0
+/master/equalizer/filter/2/q 1.0
+/master/equalizer/filter/3/active 1
+/master/equalizer/filter/3/freq 500.0
+/master/equalizer/filter/3/gain 0.0
+/master/equalizer/filter/3/q 1.0
+/master/equalizer/filter/4/active 1
+/master/equalizer/filter/4/freq 1000.0
+/master/equalizer/filter/4/gain 0.0
+/master/equalizer/filter/4/q 1.0
+/master/equalizer/filter/5/active 1
+/master/equalizer/filter/5/freq 2000.0
+/master/equalizer/filter/5/gain 0.0
+/master/equalizer/filter/5/q 1.0
+/master/equalizer/filter/6/active 1
+/master/equalizer/filter/6/freq 5000.0
+/master/equalizer/filter/6/gain 0.0
+/master/equalizer/filter/6/q 1.0
+/master/equalizer/filter/7/active 1
+/master/equalizer/filter/7/freq 10000.0
+/master/equalizer/filter/7/gain 0.0
+/master/equalizer/filter/7/q 1.0
+/master/equalizer/filter/8/active 0
+/master/equalizer/filter/8/freq 16000.0
+/master/equalizer/filter/8/order 2
+/master/gain 0.0
+/master/gain/ramptime 20.0
+/master/mute 0
+/master/annotation ""
+/master/levels/input/visible 1
+/master/levels/input/post 0
+/master/levels/input/mode "peak"
+/master/levels/output/visible 1
+/master/levels/output/post 1
+/master/levels/output/mode "peak"
+/master/channel/1/equalizer/bypass 1
+/master/channel/1/equalizer/gain 0.0
+/master/channel/1/equalizer/filters/params 0 50.0 2 1 100.0 0.0 1.0 1 500.0 0.0 1.0 1 1000.0 0.0 1.0 1 2000.0 0.0 1.0 1 5000.0 0.0 1.0 1 10000.0 0.0 1.0 0 16000.0 2
+/master/channel/2/equalizer/bypass 1
+/master/channel/2/equalizer/gain 0.0
+/master/channel/2/equalizer/filters/params 0 50.0 2 1 100.0 0.0 1.0 1 500.0 0.0 1.0 1 1000.0 0.0 1.0 1 2000.0 0.0 1.0 1 5000.0 0.0 1.0 1 10000.0 0.0 1.0 0 16000.0 2
+/master/output/mode "everything"
+/master/dim 0
+/master/lock 0
+/monitoring/name "Monitoring"
+/monitoring/color 1.0 1.0 1.0 1.0
+/monitoring/numio 2 2
+/monitoring/visible 0
+/monitoring/trim 0.0
+/monitoring/dynamics/attack 10.01
+/monitoring/dynamics/release 30.0
+/monitoring/dynamics/lookahead 0.0
+/monitoring/dynamics/compressor/threshold -30.0
+/monitoring/dynamics/compressor/ratio 1.0
+/monitoring/dynamics/expander/threshold -60.0
+/monitoring/dynamics/expander/ratio 1.0
+/monitoring/dynamics/makeup 0.0
+/monitoring/dynamics/link "multi mono"
+/monitoring/dynamics/bypass 1
+/monitoring/dynamics/grid/visible 1
+/monitoring/dynamics/curve/fill 1
+/monitoring/dynamics/background/color 1.0 1.0 1.0 0.0
+/monitoring/dynamics/foreground/color 1.0 1.0 1.0 0.6
+/monitoring/dynamics/curve/color 0.8 0.8 0.8 1.0
+/monitoring/dynamics/curve/thickness 1.0
+/monitoring/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/monitoring/dynamics/title "Monitoring"
+/monitoring/equalizer/bypass 1
+/monitoring/equalizer/gain 0.0
+/monitoring/equalizer/filter/1/active 0
+/monitoring/equalizer/filter/1/freq 50.0
+/monitoring/equalizer/filter/1/order 2
+/monitoring/equalizer/filter/2/active 1
+/monitoring/equalizer/filter/2/freq 100.0
+/monitoring/equalizer/filter/2/gain 0.0
+/monitoring/equalizer/filter/2/q 1.0
+/monitoring/equalizer/filter/3/active 1
+/monitoring/equalizer/filter/3/freq 500.0
+/monitoring/equalizer/filter/3/gain 0.0
+/monitoring/equalizer/filter/3/q 1.0
+/monitoring/equalizer/filter/4/active 1
+/monitoring/equalizer/filter/4/freq 1000.0
+/monitoring/equalizer/filter/4/gain 0.0
+/monitoring/equalizer/filter/4/q 1.0
+/monitoring/equalizer/filter/5/active 1
+/monitoring/equalizer/filter/5/freq 2000.0
+/monitoring/equalizer/filter/5/gain 0.0
+/monitoring/equalizer/filter/5/q 1.0
+/monitoring/equalizer/filter/6/active 1
+/monitoring/equalizer/filter/6/freq 5000.0
+/monitoring/equalizer/filter/6/gain 0.0
+/monitoring/equalizer/filter/6/q 1.0
+/monitoring/equalizer/filter/7/active 1
+/monitoring/equalizer/filter/7/freq 10000.0
+/monitoring/equalizer/filter/7/gain 0.0
+/monitoring/equalizer/filter/7/q 1.0
+/monitoring/equalizer/filter/8/active 0
+/monitoring/equalizer/filter/8/freq 16000.0
+/monitoring/equalizer/filter/8/order 2
+/monitoring/gain 0.0
+/monitoring/gain/ramptime 20.0
+/monitoring/mute 1
+/monitoring/annotation ""
+/monitoring/levels/input/visible 1
+/monitoring/levels/input/post 0
+/monitoring/levels/input/mode "peak"
+/monitoring/levels/output/visible 1
+/monitoring/levels/output/post 1
+/monitoring/levels/output/mode "peak"
+/monitoring/dim 0
+/monitoring/itd/scaling 100.0
+/monitoring/itd/scaling/bypass 0
+/monitoring/hrtf ""
+/monitoring/listener/orientation 0.0 0.0 0.0 1.0
+/monitoring/routing/output/empty
+/monitoring/lock 0
+/bus/indices 1
+/bus/1/format "Binaural"
+/bus/1/name "Binaural Bus 1"
+/bus/1/color 0.247059 0.737255 0.803922 1.0
+/bus/1/numio 2 2
+/bus/1/visible 1
+/bus/1/trim 0.0
+/bus/1/dynamics/attack 10.01
+/bus/1/dynamics/release 30.0
+/bus/1/dynamics/lookahead 0.0
+/bus/1/dynamics/compressor/threshold -30.0
+/bus/1/dynamics/compressor/ratio 1.0
+/bus/1/dynamics/expander/threshold -60.0
+/bus/1/dynamics/expander/ratio 1.0
+/bus/1/dynamics/makeup 0.0
+/bus/1/dynamics/link "multi mono"
+/bus/1/dynamics/bypass 1
+/bus/1/dynamics/grid/visible 1
+/bus/1/dynamics/curve/fill 1
+/bus/1/dynamics/background/color 1.0 1.0 1.0 0.0
+/bus/1/dynamics/foreground/color 0.247059 0.737255 0.803922 0.6
+/bus/1/dynamics/curve/color 0.196078 0.588235 0.643137 1.0
+/bus/1/dynamics/curve/thickness 1.0
+/bus/1/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/bus/1/dynamics/title "Binaural Bus 1"
+/bus/1/equalizer/bypass 1
+/bus/1/equalizer/gain 0.0
+/bus/1/equalizer/filter/1/active 0
+/bus/1/equalizer/filter/1/freq 50.0
+/bus/1/equalizer/filter/1/order 2
+/bus/1/equalizer/filter/2/active 1
+/bus/1/equalizer/filter/2/freq 100.0
+/bus/1/equalizer/filter/2/gain 0.0
+/bus/1/equalizer/filter/2/q 1.0
+/bus/1/equalizer/filter/3/active 1
+/bus/1/equalizer/filter/3/freq 500.0
+/bus/1/equalizer/filter/3/gain 0.0
+/bus/1/equalizer/filter/3/q 1.0
+/bus/1/equalizer/filter/4/active 1
+/bus/1/equalizer/filter/4/freq 1000.0
+/bus/1/equalizer/filter/4/gain 0.0
+/bus/1/equalizer/filter/4/q 1.0
+/bus/1/equalizer/filter/5/active 1
+/bus/1/equalizer/filter/5/freq 2000.0
+/bus/1/equalizer/filter/5/gain 0.0
+/bus/1/equalizer/filter/5/q 1.0
+/bus/1/equalizer/filter/6/active 1
+/bus/1/equalizer/filter/6/freq 5000.0
+/bus/1/equalizer/filter/6/gain 0.0
+/bus/1/equalizer/filter/6/q 1.0
+/bus/1/equalizer/filter/7/active 1
+/bus/1/equalizer/filter/7/freq 10000.0
+/bus/1/equalizer/filter/7/gain 0.0
+/bus/1/equalizer/filter/7/q 1.0
+/bus/1/equalizer/filter/8/active 0
+/bus/1/equalizer/filter/8/freq 16000.0
+/bus/1/equalizer/filter/8/order 2
+/bus/1/gain 0.0
+/bus/1/gain/ramptime 20.0
+/bus/1/mute 0
+/bus/1/annotation ""
+/bus/1/levels/input/visible 1
+/bus/1/levels/input/post 0
+/bus/1/levels/input/mode "peak"
+/bus/1/levels/output/visible 1
+/bus/1/levels/output/post 1
+/bus/1/levels/output/mode "peak"
+/bus/1/routing/output/1/master 1
+/bus/1/routing/output/2/master 2
+/bus/1/lock 0
+/bus/1/delay 0.0
+/bus/1/delay/bypass 0
+/bus/1/monitor 0
+/bus/1/interpolation/time 10.0
+/bus/1/itd/scaling 100.0
+/bus/1/hrtf ""
+/bus/1/listener/orientation 0.0 0.0 0.0 1.0
+/reverb/1/name "Binaural Reverb 1"
+/reverb/1/color 0.247059 0.737255 0.803922 1.0
+/reverb/1/numio 8 2
+/reverb/1/visible 1
+/reverb/1/trim 0.0
+/reverb/1/dynamics/attack 10.01
+/reverb/1/dynamics/release 30.0
+/reverb/1/dynamics/lookahead 0.0
+/reverb/1/dynamics/compressor/threshold -30.0
+/reverb/1/dynamics/compressor/ratio 1.0
+/reverb/1/dynamics/expander/threshold -60.0
+/reverb/1/dynamics/expander/ratio 1.0
+/reverb/1/dynamics/makeup 0.0
+/reverb/1/dynamics/link "multi mono"
+/reverb/1/dynamics/bypass 1
+/reverb/1/dynamics/grid/visible 1
+/reverb/1/dynamics/curve/fill 1
+/reverb/1/dynamics/background/color 1.0 1.0 1.0 0.0
+/reverb/1/dynamics/foreground/color 0.247059 0.737255 0.803922 0.6
+/reverb/1/dynamics/curve/color 0.196078 0.588235 0.643137 1.0
+/reverb/1/dynamics/curve/thickness 1.0
+/reverb/1/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/reverb/1/dynamics/title "Binaural Reverb 1"
+/reverb/1/equalizer/bypass 1
+/reverb/1/equalizer/gain 0.0
+/reverb/1/equalizer/filter/1/active 0
+/reverb/1/equalizer/filter/1/freq 50.0
+/reverb/1/equalizer/filter/1/order 2
+/reverb/1/equalizer/filter/2/active 1
+/reverb/1/equalizer/filter/2/freq 100.0
+/reverb/1/equalizer/filter/2/gain 0.0
+/reverb/1/equalizer/filter/2/q 1.0
+/reverb/1/equalizer/filter/3/active 1
+/reverb/1/equalizer/filter/3/freq 500.0
+/reverb/1/equalizer/filter/3/gain 0.0
+/reverb/1/equalizer/filter/3/q 1.0
+/reverb/1/equalizer/filter/4/active 1
+/reverb/1/equalizer/filter/4/freq 1000.0
+/reverb/1/equalizer/filter/4/gain 0.0
+/reverb/1/equalizer/filter/4/q 1.0
+/reverb/1/equalizer/filter/5/active 1
+/reverb/1/equalizer/filter/5/freq 2000.0
+/reverb/1/equalizer/filter/5/gain 0.0
+/reverb/1/equalizer/filter/5/q 1.0
+/reverb/1/equalizer/filter/6/active 1
+/reverb/1/equalizer/filter/6/freq 5000.0
+/reverb/1/equalizer/filter/6/gain 0.0
+/reverb/1/equalizer/filter/6/q 1.0
+/reverb/1/equalizer/filter/7/active 1
+/reverb/1/equalizer/filter/7/freq 10000.0
+/reverb/1/equalizer/filter/7/gain 0.0
+/reverb/1/equalizer/filter/7/q 1.0
+/reverb/1/equalizer/filter/8/active 0
+/reverb/1/equalizer/filter/8/freq 16000.0
+/reverb/1/equalizer/filter/8/order 2
+/reverb/1/gain 0.0
+/reverb/1/gain/ramptime 20.0
+/reverb/1/mute 0
+/reverb/1/annotation ""
+/reverb/1/levels/input/visible 1
+/reverb/1/levels/input/post 0
+/reverb/1/levels/input/mode "peak"
+/reverb/1/levels/output/visible 1
+/reverb/1/levels/output/post 1
+/reverb/1/levels/output/mode "peak"
+/reverb/1/lock 0
+/reverb/1/cluster/gain -6.0
+/reverb/1/cluster/filter/bypass 1
+/reverb/1/cluster/gain/low 0.0
+/reverb/1/cluster/gain/med 0.0
+/reverb/1/cluster/gain/high 0.0
+/reverb/1/cluster/freq/low 250.0
+/reverb/1/cluster/freq/high 4000.0
+/reverb/1/cluster/mute 0
+/reverb/1/cluster/delays 20.25 31.3633 36.1999 44.4223 56.5628 64.2643 72.8267 83.42
+/reverb/1/tr0 1.995
+/reverb/1/trl 1.0
+/reverb/1/trm 1.0
+/reverb/1/trh 0.5
+/reverb/1/fl 250.0
+/reverb/1/fh 8000.0
+/reverb/1/air 1
+/reverb/1/air/freq 10000.0
+/reverb/1/reverb/delays 52.9 72.1111 80.4721 94.6858 115.673 128.986 143.788 162.1
+/lfe/name "LFE"
+/lfe/color 1.0 1.0 0.0 1.0
+/lfe/numio 1 1
+/lfe/visible 1
+/lfe/trim 0.0
+/lfe/dynamics/attack 10.01
+/lfe/dynamics/release 30.0
+/lfe/dynamics/lookahead 0.0
+/lfe/dynamics/compressor/threshold -30.0
+/lfe/dynamics/compressor/ratio 1.0
+/lfe/dynamics/expander/threshold -60.0
+/lfe/dynamics/expander/ratio 1.0
+/lfe/dynamics/makeup 0.0
+/lfe/dynamics/link "multi mono"
+/lfe/dynamics/bypass 1
+/lfe/dynamics/grid/visible 1
+/lfe/dynamics/curve/fill 1
+/lfe/dynamics/background/color 1.0 1.0 1.0 0.0
+/lfe/dynamics/foreground/color 1.0 1.0 0.0 0.6
+/lfe/dynamics/curve/color 0.8 0.8 0.0 1.0
+/lfe/dynamics/curve/thickness 1.0
+/lfe/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/lfe/dynamics/title "LFE"
+/lfe/equalizer/bypass 1
+/lfe/equalizer/gain 0.0
+/lfe/equalizer/filter/1/active 0
+/lfe/equalizer/filter/1/freq 50.0
+/lfe/equalizer/filter/1/order 2
+/lfe/equalizer/filter/2/active 1
+/lfe/equalizer/filter/2/freq 100.0
+/lfe/equalizer/filter/2/gain 0.0
+/lfe/equalizer/filter/2/q 1.0
+/lfe/equalizer/filter/3/active 1
+/lfe/equalizer/filter/3/freq 500.0
+/lfe/equalizer/filter/3/gain 0.0
+/lfe/equalizer/filter/3/q 1.0
+/lfe/equalizer/filter/4/active 1
+/lfe/equalizer/filter/4/freq 1000.0
+/lfe/equalizer/filter/4/gain 0.0
+/lfe/equalizer/filter/4/q 1.0
+/lfe/equalizer/filter/5/active 1
+/lfe/equalizer/filter/5/freq 2000.0
+/lfe/equalizer/filter/5/gain 0.0
+/lfe/equalizer/filter/5/q 1.0
+/lfe/equalizer/filter/6/active 1
+/lfe/equalizer/filter/6/freq 5000.0
+/lfe/equalizer/filter/6/gain 0.0
+/lfe/equalizer/filter/6/q 1.0
+/lfe/equalizer/filter/7/active 1
+/lfe/equalizer/filter/7/freq 10000.0
+/lfe/equalizer/filter/7/gain 0.0
+/lfe/equalizer/filter/7/q 1.0
+/lfe/equalizer/filter/8/active 0
+/lfe/equalizer/filter/8/freq 16000.0
+/lfe/equalizer/filter/8/order 2
+/lfe/gain 0.0
+/lfe/gain/ramptime 20.0
+/lfe/mute 0
+/lfe/annotation ""
+/lfe/levels/input/visible 1
+/lfe/levels/input/post 0
+/lfe/levels/input/mode "peak"
+/lfe/levels/output/visible 1
+/lfe/levels/output/post 1
+/lfe/levels/output/mode "peak"
+/lfe/routing/output/empty
+/lfe/lock 0
+/lfe/delay 0.0
+/lfe/delay/bypass 0
+/lfe/cutoff 50.0
+/lfe/cutoff/bypass 0
+/track/indices 1
+/stereo/indices
+/multi/indices
+/tree/indices
+/hoastream/indices
+/eigenmike/indices
+/zylia/indices
+/bformat/indices
+/aformat/indices
+/d2m/indices
+/d2b/indices
+/track/1/name "Mono 1"
+/track/1/color 0.117647 0.564706 1.0 1.0
+/track/1/numinputs 1
+/track/1/visible 1
+/track/1/trim 0.0
+/track/1/dynamics/attack 10.01
+/track/1/dynamics/release 30.0
+/track/1/dynamics/lookahead 0.0
+/track/1/dynamics/compressor/threshold -30.0
+/track/1/dynamics/compressor/ratio 1.0
+/track/1/dynamics/expander/threshold -60.0
+/track/1/dynamics/expander/ratio 1.0
+/track/1/dynamics/makeup 0.0
+/track/1/dynamics/link "multi mono"
+/track/1/dynamics/bypass 1
+/track/1/dynamics/grid/visible 1
+/track/1/dynamics/curve/fill 1
+/track/1/dynamics/background/color 1.0 1.0 1.0 0.0
+/track/1/dynamics/foreground/color 0.117647 0.564706 1.0 0.6
+/track/1/dynamics/curve/color 0.0941176 0.45098 0.8 1.0
+/track/1/dynamics/curve/thickness 1.0
+/track/1/dynamics/grid/color 0.501961 0.501961 0.501961 1.0
+/track/1/dynamics/title "Mono 1"
+/track/1/equalizer/bypass 1
+/track/1/equalizer/gain 0.0
+/track/1/equalizer/filter/1/active 0
+/track/1/equalizer/filter/1/freq 50.0
+/track/1/equalizer/filter/1/order 2
+/track/1/equalizer/filter/2/active 1
+/track/1/equalizer/filter/2/freq 100.0
+/track/1/equalizer/filter/2/gain 0.0
+/track/1/equalizer/filter/2/q 1.0
+/track/1/equalizer/filter/3/active 1
+/track/1/equalizer/filter/3/freq 500.0
+/track/1/equalizer/filter/3/gain 0.0
+/track/1/equalizer/filter/3/q 1.0
+/track/1/equalizer/filter/4/active 1
+/track/1/equalizer/filter/4/freq 1000.0
+/track/1/equalizer/filter/4/gain 0.0
+/track/1/equalizer/filter/4/q 1.0
+/track/1/equalizer/filter/5/active 1
+/track/1/equalizer/filter/5/freq 2000.0
+/track/1/equalizer/filter/5/gain 0.0
+/track/1/equalizer/filter/5/q 1.0
+/track/1/equalizer/filter/6/active 1
+/track/1/equalizer/filter/6/freq 5000.0
+/track/1/equalizer/filter/6/gain 0.0
+/track/1/equalizer/filter/6/q 1.0
+/track/1/equalizer/filter/7/active 1
+/track/1/equalizer/filter/7/freq 10000.0
+/track/1/equalizer/filter/7/gain 0.0
+/track/1/equalizer/filter/7/q 1.0
+/track/1/equalizer/filter/8/active 0
+/track/1/equalizer/filter/8/freq 16000.0
+/track/1/equalizer/filter/8/order 2
+/track/1/gain 0.0
+/track/1/gain/ramptime 20.0
+/track/1/mute 0
+/track/1/annotation ""
+/track/1/levels/input/visible 1
+/track/1/levels/input/post 0
+/track/1/levels/input/mode "peak"
+/track/1/levels/output/visible 1
+/track/1/levels/output/post 1
+/track/1/levels/output/mode "peak"
+/track/1/solo 0
+/track/1/bus/A/destination "/bus/1"
+/track/1/bus/B/destination "/"
+/track/1/bus/C/destination "/"
+/track/1/bus/D/destination "/"
+/track/1/bus/E/destination "/"
+/track/1/bus/F/destination "/"
+/track/1/bus/A/mute 0
+/track/1/bus/B/mute 0
+/track/1/bus/C/mute 0
+/track/1/bus/D/mute 0
+/track/1/bus/E/mute 0
+/track/1/bus/F/mute 0
+/track/1/bus/A/gain 0.0
+/track/1/bus/B/gain 0.0
+/track/1/bus/C/gain 0.0
+/track/1/bus/D/gain 0.0
+/track/1/bus/E/gain 0.0
+/track/1/bus/F/gain 0.0
+/track/1/bus/display "A"
+/track/1/routing/input/1/adc 1 2
+/track/1/lfe/send 0.0
+/track/1/lfe/mute 0
+/track/1/doppler 0
+/track/1/air 0
+/track/1/phaseinvert 0
+/track/1/azim 0.0
+/track/1/elev 0.0
+/track/1/dist 1.0
+/track/1/delay/linkedtodistance 0
+/track/1/direct/linkedtodistance 1
+/track/1/early/linkedtodistance 1
+/track/1/reverb/linkedtodistance 1
+/track/1/delay 0.0
+/track/1/direct/gain/offset 0.0
+/track/1/direct/gain -0.5
+/track/1/direct/gain/low 0.0
+/track/1/direct/gain/med 0.0
+/track/1/direct/gain/high 0.0
+/track/1/direct/freq/low 250.0
+/track/1/direct/freq/high 4000.0
+/track/1/direct/filter/bypass 1
+/track/1/early/gain/offset 0.0
+/track/1/early/gain -8.5
+/track/1/early/gain/low 0.0
+/track/1/early/gain/med 0.0
+/track/1/early/gain/high 0.0
+/track/1/early/freq/low 250.0
+/track/1/early/freq/high 4000.0
+/track/1/early/filter/bypass 1
+/track/1/reverb/send -18.0
+/track/1/reverb/send/offset 0.0
+/track/1/reverb/send/ramptime 20.0
+/track/1/early/width 30.0
+/track/1/direct/mute 0
+/track/1/early/mute 0
+/track/1/reverb/mute 0
+/track/1/bus/A/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/A/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/bus/B/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/B/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/bus/C/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/C/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/bus/D/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/D/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/bus/E/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/E/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/bus/F/early/delays 22.22 25.2969 26.6361 28.9126 32.274 34.4063 36.777 39.71
+/track/1/bus/F/early/gains 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+/track/1/lock 0
+/group/indices 1 2
+/group/1/name "all tracks"
+/group/1/affects/mute 1
+/group/1/affects/solo 1
+/group/1/affects/send 1
+/group/1/affects/bussend 1
+/group/1/affects/position 1
+/group/1/track 1
+/group/1/active 0
+/group/2/name ">> Binaural Bus 1"
+/group/2/affects/mute 1
+/group/2/affects/solo 1
+/group/2/affects/send 1
+/group/2/affects/bussend 1
+/group/2/affects/position 1
+/group/2/track 1
+/group/2/active 0
+/internals 8
+/viewer/layout "single"
+/viewer/background/color 0.709804 0.709804 0.709804 1.0
+/viewer/backgroundimage/file ""
+/viewer/backgroundimage/visible 1
+/viewer/backgroundimage/opacity 1.0
+/viewer/backgroundimage/scale 100.0
+/viewer/backgroundimage/angle 0.0
+/viewer/backgroundimage/offset/xy 0.0 0.0
+/viewer/backgroundimage/quality "medium"
+/viewer/display/zoom 100.0
+/viewer/display/offset/xyz 0.0 0.0 0.0
+/viewer/display/zoom/lock 0
+/viewer/axis/visible 1
+/viewer/axis/label/visible 1
+/viewer/axis/origin/visible 1
+/viewer/axis/color 1.0 1.0 1.0 1.0
+/viewer/axis/thickness 2.0
+/viewer/grid/visible 1
+/viewer/grid/mode "circular"
+/viewer/grid/spacing 1.0
+/viewer/grid/line/number 30
+/viewer/grid/angulardivisions/number 8
+/viewer/grid/angulardivisions/visible 1
+/viewer/grid/dashed 0
+/viewer/grid/color 1.0 1.0 1.0 0.501961
+/viewer/grid/thickness 1.0
+/viewer/grid/unitcircle/visible 1
+/viewer/grid/unitcircle/color 0.501961 0.501961 0.501961 0.239216
+/viewer/grid/unitcircle/radius 1.0
+/viewer/legend/visible 1
+/viewer/legend/color 1.0 1.0 1.0 1.0
+/viewer/legend/unit "meters"
+/viewer/emphasis/source 1
+/viewer/emphasis/speaker 0
+/viewer/emphasis/microphone 0
+/viewer/settings/visible 0
+/viewer/settings/editable 1
+/viewer/area/number 0
+/viewer/anchor/number 0
+/usurp 0
+/window/title "Panoramix - BaseBinauralPanoramix"
+/window/visible 1
+/window/moveable 1
+/window/resizable 1
+/window/enable 1
+/window/bounds 436 38 1048 960
+/window/background/color 0.827451 0.827451 0.827451 1.0
+/window/opaque 1
+/window/titlebar 1
+/window/fullscreen 0
+/window/minimise 0
+/window/scale 100.0
+/window/rendering/engine "Software Renderer"
+/window/rendering/fps/visible 0
+/window/floating 0
+/window/hidesondeactivate 0
+/window/buttons/close 1
+/window/buttons/minimise 1
+/window/buttons/maximise 1
